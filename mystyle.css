@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+#building, #building1, #building2, #building3 {
+    width: 100%;
+    height: 100vh;
+}
+.high {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* All the tall building images */
+.tallBuilding1 {
+    background-image: url("./image/parrallex image/stand strong.jpg");
+}
+.tallBuilding2 {
+    background-image: url("./image/parrallex image/aerial view3.jpg");
+}
+.tallBuilding3 {
+    background-image: url("./image/parrallex image/aerial view2.jpg");
+}
+.tallBuilding4 {
+    background-image: url("./image/parrallex image/aerial view1.jpg");
+}
+.text-field {
+    width: 50%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10px;
+    align-items: center;
+}
+.text-field h1, p {
+    /* width: 80%; */
+    /* outline: 1px solid red; */
+    line-height: 20px;
+    padding: 30px;
+}
+.navbar {
+    width: 100%;
+    background: #000000cc;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.navbar ul li a {
+    padding: 10px 13px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    cursor: pointer;
+}
